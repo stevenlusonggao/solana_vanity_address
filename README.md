@@ -62,6 +62,10 @@ Options:
         Print help
 ```
 
+## Full Guide
+
+[Click here](https://stevenlusonggao.github.io/blog/posts/solana-vanity-address/) for the full guide with more examples.
+
 ## License
 
 Licensed under either of [Apache License, Version 2.0](LICENSE-APACHE) or [MIT license](LICENSE-MIT) at your option.
