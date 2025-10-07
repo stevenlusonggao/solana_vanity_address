@@ -7,7 +7,7 @@ A vanity public key is a Solana address that begins or ends with specific charac
 ## Features
 
 - ⚡ Optimized Multi-threaded Performance - Built with [Rayon](https://docs.rs/rayon/latest/rayon/) for efficient parallel processing. Utilize multiple CPU cores for maximum performance.
-- 🎯 Flexible Matching - Match patterns with lookalike characters (e.g., 1 matches i, L).
+- 🎯 Flexible Matching - Match patterns with lookalike characters (e.g., s matches S, 5).
 - 🔤 Case Sensitivity - Choose between case-sensitive, case-insensitive. 
 - 🔍 Multiple Match Types - Search for prefix, suffix, or either.
 - ✅ Base58 Validation - Automatically validates patterns against Solana's [Base58](https://digitalbazaar.github.io/base58-spec/) character set.
