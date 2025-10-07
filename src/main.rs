@@ -23,11 +23,11 @@ struct Args {
     match_type: MatchType,
 
     // enable case sensitivity
-    #[arg(short = 's', long, default_value_t = false)]
+    #[arg(short = 's', long, default_value_t = false, action = clap::ArgAction::Set)]
     case_sensitivity: bool,
 
     // enable flexible character set
-    #[arg(short = 'l', long, default_value_t = true)]
+    #[arg(short = 'l', long, default_value_t = true, action = clap::ArgAction::Set)]
     flexible_chars: bool,
 }
 
